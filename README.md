@@ -29,7 +29,7 @@ This is the online repository for the manuscript titled **"Deciphering the Genet
     
 
 ## Repository Orientation
-* The `analyses/` directory includes all post GWAS analyses, for QC+GWAS, see the IDEAL-GENOM-QC pipeline: https://github.com/cge-tubingens/IDEAL-GENOM-QC
+* The `analyses/` directory includes all post GWAS analyses, for QC+GWAS, see the IDEAL-GENOM-QC pipeline: https://github.com/cge-tubingens/IDEAL-GENOM-QC and https://github.com/cge-tubingens/IDEAL-GENOM
 
 ```
 analyses/
