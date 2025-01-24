@@ -13,13 +13,16 @@ Pending DOI
 This is the online repository for the manuscript titled **"Deciphering the Genetic Architecture of Parkinson’s Disease in India"**. This study represents the first largest genome-wide assessment of Parkinson’s disease in the Indian population.
 
 ## Data Statement
+Some of the data used in the preparation of this article were obtained from the Global Parkinson’s Genetics Program (GP2; https://gp2.org). Specifically, we used Tier 1 data from GP2 release 9 [DOI 10.5281/zenodo.14510099]. Tier 1 data can be accessed by completing a form on the Accelerating Medicines Partnership in Parkinson’s Disease (AMP®-PD) website (https://amp-pd.org/register-for-amp-pd). Tier 2 data access requires approval and a Data Use Agreement signed by your institution.
 
+Parkinson's disease - summary statistics for the following studies are available via release 9 (DOI 10.5281/zenodo.14510099) GP2 Tier 1 access:
+* Multi-ancestry GWAS meta-analysis; Kim et al 2023
 
 ## Workflow
 
-1. Quality cotrol (QC) and genotype processing with IDEAL-GENOM-QC pipeline: https://github.com/cge-tubingens/IDEAL-GENOM-QC
+1. Quality cotrol (QC) and genotype processing with IDEAL-GENOM-QC pipeline: https://github.com/cge-tubingens/IDEAL-GENOM-QC (defaults ran; check README at this repository)
 2. Imputation to whole genome sequence with the Michigan imputation server
-3. GWAS with IDEAL-GENOM pipeline: https://github.com/cge-tubingens/IDEAL-GENOM
+3. GWAS with IDEAL-GENOM pipeline: https://github.com/cge-tubingens/IDEAL-GENOM (defaults ran; check README at this repository)
 4. Heritability estimation with GCTA
 5. Meta-Analysis with GWAMA
 6. MAPT haplotype analysis with haplo.stats
